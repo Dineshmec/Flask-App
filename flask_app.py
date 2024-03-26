@@ -80,6 +80,3 @@ def process_query():
     except Exception as e:
         # Handle exceptions gracefully
         return str(e), 500
- 
-if __name__ == '__main__':
-    app.run(debug=False, host='0.0.0.0')
