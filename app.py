@@ -12,7 +12,7 @@ import random
 app = Flask(__name__)
 CORS(app, resources={r"/query": {"origins": "http://10.10.10.121:8081"}})
  
-# Set up Hugging Face token
+# Set up Hugging Face API token
 HF_token = "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"
 os.environ['HuGGINGFACEHUB_API_TOKEN'] = HF_token
  
