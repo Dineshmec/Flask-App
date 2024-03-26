@@ -16,7 +16,7 @@ CORS(app, resources={r"/query": {"origins": "http://10.10.10.121:8081"}})
 HF_token = "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"
 os.environ['HuGGINGFACEHUB_API_TOKEN'] = HF_token
  
-# Load data from the provided URL
+# Load data from provided URL
 URL = "https://docs.google.com/spreadsheets/d/1CCiYSa2ZReP4gcAIbKflING7eVmwEXAx/edit?usp=sharing&ouid=114895549194268657828&rtpof=true&sd=true"
 data = WebBaseLoader(URL)
 content = data.load()
