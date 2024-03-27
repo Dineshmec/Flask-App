@@ -17,7 +17,7 @@ HF_token = "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"
 os.environ['HuGGINGFACEHUB_API_TOKEN'] = HF_token
  
 # Load data from the provided URL
-URL = "https://docs.google.com/spreadsheets/d/1CCiYSa2ZReP4gcAIbKflING7eVmwEXAx/edit?usp=sharing&ouid=114895549194268657828&rtpof=true&sd=true"
+URL = "https://docs.google.com/spreadsheets/d/1CFZx0mwH7zc0QErcZ_R_yC3ebD0Qx516/edit#gid=1874917381"
 data = WebBaseLoader(URL)
 content = data.load()
 
