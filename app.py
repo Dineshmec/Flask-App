@@ -36,7 +36,7 @@ embeddings = HuggingFaceInferenceAPIEmbeddings(
 vectorstore = Chroma.from_documents(chunking, embeddings)
  
 # Set up the Hugging Face model
-model = HuggingFaceHub(repo_id="mistralai/Mistral-7B-Instruct-v0.2",
+model = HuggingFaceHub(repo_id="meta-llama/Llama-2-7b",
                         model_kwargs={"temperature": 0.5, "max_new_tokens": 512, "max_length": 64},
                         huggingfacehub_api_token="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")
 
