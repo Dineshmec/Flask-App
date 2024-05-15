@@ -13,7 +13,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/query": {"origins": "http://10.10.10.121:8081"}})
  
 # Set up Hugging Face API token
-HF_token = "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"
+HF_token = "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"
 os.environ['HuGGINGFACEHUB_API_TOKEN'] = HF_token
  
 # Load data from the provided URL
