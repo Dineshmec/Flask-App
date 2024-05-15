@@ -74,6 +74,7 @@ SQLAlchemy==2.0.28
 starlette==0.20.4
 tenacity==8.2.3
 tokenizers==0.15.2
+transformers==4.29.2
 tqdm==4.66.2
 trio==0.24.0
 trio-websocket==0.11.1
