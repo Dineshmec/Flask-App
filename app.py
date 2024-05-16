@@ -68,11 +68,8 @@ def process_query():
         helpful_answer = output[start_index:].strip()
 
         # Return the helpful answer
-        return helpful_answer
+        return output
 
     except Exception as e:
         # Handle exceptions gracefully
         return str(e), 500
-    
-# if __name__ == '__main__':
-#     app.run(debug=True)
