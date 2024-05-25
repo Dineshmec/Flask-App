@@ -18,7 +18,7 @@ HF_token = "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"
 login(token=HF_token, add_to_git_credential=True)  # Logging into Hugging Face Hub and saving to git credentials
 
 # Load data from the provided URL
-URL = "https://docs.google.com/spreadsheets/d/1CFZx0mwH7zc0QErcZ_R_yC3ebD0Qx516/edit#gid=1874917381"
+URL = "https://docs.google.com/spreadsheets/d/1EaMOBcQgADrHbFgR1qwUFfC9ZlPiLOgb/edit?usp=sharing&ouid=109582196542583521183&rtpof=true&sd=true"
 data = WebBaseLoader(URL)
 content = data.load()
 
